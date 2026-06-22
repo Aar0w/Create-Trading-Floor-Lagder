@@ -1,6 +1,7 @@
 MIT License
 
 Copyright (c) 2024 CakeGit
+
 Copyright (c) 2026 Aarow
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
