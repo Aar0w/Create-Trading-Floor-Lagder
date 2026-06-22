@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+    modId="tradingfloorfix"
+    version="1.0.0"
+    displayName="Trading Floor Ladger"
+    description='''
+        Detects trades in Create: Trading Floor and fires a Forge event.
+        KubeJS can listen to that event and complete FTBQuests tasks.
+    '''
+
+[[dependencies.tradingfloorfix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.3.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tradingfloorfix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tradingfloorfix]]
+    modId="trading_floor"
+    mandatory=true
+    versionRange="[2.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.tradingfloorfix]]
+    modId="kubejs"
+    mandatory=false
+    versionRange="[2001.6,)"
+    ordering="NONE"
+    side="BOTH"
